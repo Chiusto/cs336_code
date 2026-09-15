@@ -1,0 +1,46 @@
+# 旧仓库备份（切勿提交）
+.git_backup_original/
+
+# 顶层无用缓存
+.pytest_cache/
+tests/_snapshots/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.cursor/
+.claude/
+
+# 系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python 虚拟环境与缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.uv/
+
+# assignment1-basics 额外忽略（data 743M 绝不能推送）
+assignment1-basics/data/
+assignment1-basics/.venv/
+assignment1-basics/.pytest_cache/
+assignment1-basics/.ruff_cache/
+assignment1-basics/__pycache__/
+assignment1-basics/cs336_basics/__pycache__/
+assignment1-basics/cs336_basics/Tokenizer/__pycache__/
+assignment1-basics/cs336_basics/train/__pycache__/
+assignment1-basics/tests/__pycache__/
+
+# 大数据集 / 模型权重 / 测试快照（从 HF 或课程材料重新获取，不入库）
+assignment5-alignment/data/
+assignment5-alignment/tests/fixtures/
+assignment1-basics/data/
+assignment1-basics/tests/fixtures/
+assignment1-basics/tests/_snapshots/
